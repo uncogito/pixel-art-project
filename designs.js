@@ -24,7 +24,6 @@ function pickColor() {
 
 function changeColor(event){
     let rgbValue ;
-    let backgroundrgb = event.target.style.backgroundColor;
     if (event.target.nodeName == "TD"){//check that click is on cell
         function hexToRgb (hex) { //convert color value of existing color to hex
             let red = parseInt(hex[1]+hex[2],16);
